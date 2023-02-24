@@ -1,7 +1,7 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
-import Link from "next/link";
+// import Link from "next/link";
 
 type Props = {};
 
@@ -23,39 +23,58 @@ const Header = (props: Props) => {
                     duration: 1.4,
                 }}
                 className="flex flex-row items-center">
-                <SocialIcon
-                    url="https://www.linkedin.com/in/alexander-hunt-3b1b1710a/"
-                    fgColor="gray"
-                    bgColor="transparent"
-                />
-            </motion.div>
-            <Link href="#contact">
-                <motion.div
-                    initial={{
-                        x: 500,
-                        opacity: 0,
-                        scale: 0.5,
-                    }}
-                    animate={{
-                        x: 0,
-                        opacity: 1,
-                        scale: 1,
-                    }}
-                    transition={{
-                        duration: 1.4,
-                    }}
-                    className="flex flex-row items-center text-gray-300 cursor-pointer">
+                <div className="flex flex-col items-center justify-center">
                     <SocialIcon
-                        className="cursor-pointer"
-                        network="email"
+                        url="https://www.linkedin.com/in/alexander-hunt-3b1b1710a/"
                         fgColor="gray"
                         bgColor="transparent"
                     />
-                    <p className="uppercase hidden md:inline-flex text-sm text-gray-300">
-                        Get In Touch
-                    </p>
-                </motion.div>
-            </Link>
+                    <p className="text-xs text-gray-500 opacity-80">LinkedIn</p>
+                </div>
+                <div className="flex flex-col items-center justify-center mx-[6px]">
+                    <SocialIcon
+                        url="https://angel.co/u/alexander-hunt-3"
+                        fgColor="gray"
+                        bgColor="transparent"
+                    />
+                    <p className="text-xs text-gray-500 opacity-80 upp">Wellfound</p>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                    <SocialIcon
+                        url="https://github.com/alexh205"
+                        fgColor="gray"
+                        bgColor="transparent"
+                    />
+                    <p className="text-xs text-gray-500 opacity-80">GitHub</p>
+                </div>
+            </motion.div>
+            {/* <Link href="#contact"> */}
+            <motion.div
+                initial={{
+                    x: 500,
+                    opacity: 0,
+                    scale: 0.5,
+                }}
+                animate={{
+                    x: 0,
+                    opacity: 1,
+                    scale: 1,
+                }}
+                transition={{
+                    duration: 1.4,
+                }}
+                className="flex flex-row items-center text-gray-300 cursor-pointer">
+                <SocialIcon
+                    className="cursor-pointer"
+                    network="email"
+                    fgColor="gray"
+                    bgColor="transparent"
+                />
+                <p className="uppercase hidden md:inline-flex text-sm text-gray-300">
+                    Get In Touch
+                </p>
+            </motion.div>
+            {/* </Link> */}
         </header>
     );
 };

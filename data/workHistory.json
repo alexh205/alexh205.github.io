@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "companyLogo": "https://imgs.search.brave.com/IcsMMGokfGWrGatLyyK6plIXgD7wFFAFAaSGNs3aC6w/rs:fit:820:434:1/g:ce/aHR0cHM6Ly93d3cu/c2Vla3BuZy5jb20v/cG5nL2RldGFpbC8y/MjAtMjIwMDE5MF9t/ZXJjay1sb2dvLW1l/cmNrLWNvLnBuZw",
+        "companyLink": "https://www.merck.com/",
+        "companyName": "Merck & Co.",
+        "Role": "Quality Control Engineer",
+        "startDate": "Mar 2017",
+        "endDate": "Present",
+        "Accomplishments": [
+            "Successfully managed over 25 custom software solutions, overseeing every stage of the software development lifecycle (SDLC) process",
+            "Administered 100+ user accounts across 40+ automated systems in a highly-regulated pharmaceutical environment.",
+            "Established a deviation reporting process, to address root cause analysis, corrective and preventive action plans, and metric trending. The process produced a 20% reduction in occurrences within the first year."
+        ]
+    },
+    {
+        "id": 2,
+        "companyLogo": "https://imgs.search.brave.com/zlXPa_bLQK13k7w_GltRr3WDfUP8N2KHjFIZKiEpR-8/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Ev/QUFUWEFKekpxd2dD/RlQxcDJRTUQwTVFh/VS1wakFFbEpkLTV5/OUFEWUZRPXM5MDAt/Yy1rLWMweGZmZmZm/ZmZmLW5vLXJqLW1v",
+        "companyLink": "https://www.masy.com/",
+        "companyName": "Masy BioServices",
+        "Role": "Validation Specialist",
+        "startDate": "Nov 2015",
+        "endDate": "Ended Mar 2017",
+        "Accomplishments": [
+            "Authored, and meticulously reviewed over 120 validation protocols and reports, including Installation Qualification (IQ), Operational Qualification (OQ), and Performance Qualification (PQ) for laboratory/manufacturing instrumentation",
+            "Performed automated system validation/qualification in accordance with Good Laboratory Practices (GLP) Good Manufacturing Practices (GMP) guidelines, across multiple fortune 500 companiesPerformed automated system validation/qualification in accordance with Good Laboratory Practices (GLP) Good Manufacturing Practices (GMP) guidelines, across multiple fortune 500 companies"
+        ]
+    },
+    {
+        "id": 3,
+        "companyLogo": "https://imgs.search.brave.com/eZtuq0fBsKQYtME-eQMyECqusIlNyRJdXqwb5li7ZEQ/rs:fit:256:256:1/g:ce/aHR0cHM6Ly9kMnE3/OWl1N3k3NDhqei5j/bG91ZGZyb250Lm5l/dC9zL19zcXVhcmVs/b2dvLzI1NngyNTYv/MDBmYmQ4OTA0Njcx/NzkzZGMxZGZhNmQy/MGMyOWUwY2I",
+        "companyLink": "https://pharmerica.com/",
+        "companyName": "PharMerica",
+        "Role": "Pharmacy Technician",
+        "startDate": "Mar 2012",
+        "endDate": "Ended Nov 2015",
+        "Accomplishments": [
+            ""
+        ]
+    }
+]

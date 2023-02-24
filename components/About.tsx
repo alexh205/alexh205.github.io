@@ -29,34 +29,47 @@ const About = (props: Props) => {
             <div className="space-y-10 px-0 md:px-10">
                 <h4 className="text-4xl font-semibold">
                     Here is a{" "}
-                    <span className="underline decoration-[#F7AB0A]/50">
+                    <span className="underline decoration-[#36994c]/50">
                         little
                     </span>{" "}
                     about me
                 </h4>
                 <p className="text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. At imperdiet dui accumsan sit amet nulla. Fames ac
-                    turpis egestas integer eget aliquet. Duis convallis
-                    convallis tellus id interdum velit laoreet id. Tristique
-                    risus nec feugiat in fermentum. Viverra justo nec ultrices
-                    dui. Quisque sagittis purus sit amet volutpat consequat
-                    mauris nunc. Mauris nunc congue nisi vitae. Nunc non blandit
-                    massa enim nec dui nunc mattis. Sit amet tellus cras
-                    adipiscing enim eu. Risus nullam eget felis eget.
-                    Pellentesque habitant morbi tristique senectus et. Orci
-                    nulla pellentesque dignissim enim sit amet. Sit amet tellus
-                    cras adipiscing enim eu turpis egestas. Lectus proin nibh
-                    nisl condimentum. Risus feugiat in ante metus dictum at. Nec
-                    nam aliquam sem et tortor consequat. Et pharetra pharetra
-                    massa massa. Eu nisl nunc mi ipsum faucibus vitae aliquet
-                    nec. Id ornare arcu odio ut sem nulla. Duis ultricies lacus
-                    sed turpis. Sed adipiscing diam donec adipiscing tristique
-                    risus nec feugiat in. Amet est placerat in egestas erat
-                    imperdiet. Egestas maecenas pharetra convallis posuere morbi
-                    leo urna molestie. Et egestas quis ipsum suspendisse
-                    ultrices gravida.
+                    It is nice to meet you! I'm a software engineer. From a
+                    young age, I've been drawn to the world of technology and
+                    problem-solving. When I discovered computer programming, I
+                    found the perfect outlet to combine these interests. To me,
+                    software engineering is a form of digital artistry. Like a
+                    painter, a software engineer has a unique canvas upon which
+                    to express their vision and create something entirely new.
+                </p>
+                <p className="text-base">
+                    As the world increasingly moves into the digital space,
+                    software engineering is becoming one of the most important
+                    and versatile mediums for creative expression. With a few
+                    lines of code, a software engineer can build entire worlds,
+                    and bring to life new industries and platforms that were
+                    previously unimaginable.
+                </p>
+                <p className="text-base">
+                    One of the things I find most exciting about software
+                    engineering is the speed at which ideas can be transformed
+                    into measurable realities. It's an incredibly malleable
+                    medium, which allows for rapid iteration and
+                    experimentation. The ability to bring a vision to life in a
+                    matter of days is truly exhilarating, and I find it
+                    incredibly satisfying to see the tangible results of my
+                    work.
+                </p>
+                <p className="text-base">
+                    I'm passionate about the potential of software engineering
+                    to change the world, and I'm excited to be part of an
+                    industry that is constantly evolving and pushing the
+                    boundaries of what is possible. The challenges and
+                    opportunities presented by this field are what continue to
+                    motivate and inspire me every day. I would welcome the
+                    opportunity to discuss your team's needs and learn more
+                    about your organization's culture and goals.
                 </p>
             </div>
         </motion.div>

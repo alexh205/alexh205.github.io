@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "Name": "NinjaVillage",
+        "Image": "",
+        "Description": "This is an e-commerce application inspired by the popular e-commerce site Amazon. Users can search, sell, purchase, and review products.",
+        "Tools": "",
+        "Link": "https://ninjavillage-pkud.onrender.com/",
+        "Git_Repo": "https://github.com/alexh205/NinjaVillage"
+    },
+    {
+        "id": 2,
+        "Name": "Buzz",
+        "Image": "",
+        "Description": "This is a spin-off of the popular business messaging application Slack. Users on Slack can share messages, images, setup communication channels for group collaboration, and take part in audio sessions within their organizations.",
+        "Tools": "",
+        "Link": "https://buzz-vxv2.onrender.com/",
+        "Git_Repo": "https://github.com/AaronPBishop/Buzz"
+    },
+    {
+        "id": 3,
+        "Name": "AwayRental",
+        "Image": "",
+        "Description": "A clone of the popular hosting site AirBnB. Users on AirBnB are able to offer their property to host overnight stays, stay at other places that other users have hosted.",
+        "Tools": "",
+        "Link": "https://awayrental.onrender.com/",
+        "Git_Repo": "https://github.com/alexh205/AwayRental"
+    }
+]

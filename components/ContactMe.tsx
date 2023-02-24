@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import { useForm, SubmitHandler } from "react-hook-form";
-import { format } from "path";
+import Link from "next/link";
 
 type Inputs = {
     name: string;
@@ -16,7 +16,7 @@ type Props = {};
 const ContactMe = (props: Props) => {
     const { register, handleSubmit } = useForm<Inputs>();
     const onSubmit: SubmitHandler<Inputs> = formData => {
-        window.location.href = `mailto:siteowner@development.com?subject={formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
+        window.location.href = `mailto:alexhunt215@gmail.com?subject={formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
     };
     return (
         <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
@@ -26,24 +26,27 @@ const ContactMe = (props: Props) => {
             <div className="flex flex-col space-y-10">
                 <h4 className="text-4xl font-semibold text-center">
                     I have got just what you need.
-                    <span className="decoration-[#F7AB0A]/50 underline">
+                    <span className="decoration-[#36994c]/50 underline">
                         {" "}
                         Lets Talk.
                     </span>
                 </h4>
                 <div className="space-y-10">
                     <div className="flex items-center space-x-5 justify-center">
-                        <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-                        <p className="text-2xl">+123-456-7890</p>
+                        <PhoneIcon className="text-[#36994c] h-7 w-7 animate-pulse" />
+                        <p className="text-2xl">+1-267-844-3867</p>
                     </div>
                     <div className="flex items-center space-x-5 justify-center">
-                        <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-                        <p className="text-2xl">coffeeDeveloper@coding.com</p>
+                        <EnvelopeIcon className="text-[#36994c] h-7 w-7 animate-pulse" />
+                        <p className="text-2xl">alexhunt215@gmail.com</p>
                     </div>
-                    <div className="flex items-center space-x-5 justify-center">
-                        <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-                        <p className="text-2xl">123 Software Lane</p>
-                    </div>
+                    <Link
+                        href="https://goo.gl/maps/zf4tqLEJbJyWZBY86"
+                        target="_blank"
+                        className="flex items-center space-x-5 justify-center">
+                        <MapPinIcon className="text-[#36994c] h-7 w-7 animate-pulse" />
+                        <p className="text-2xl">Pennsylvania, USA</p>
+                    </Link>
                 </div>
                 <form
                     className="flex flex-col space-y-2 w-fit mx-auto"
@@ -54,12 +57,14 @@ const ContactMe = (props: Props) => {
                             placeholder="Name"
                             className="contactInput"
                             type="text"
+                            required
                         />
                         <input
                             {...register("email")}
                             placeholder="Email"
                             className="contactInput"
                             type="email"
+                            required
                         />
                     </div>
                     <input
@@ -67,16 +72,18 @@ const ContactMe = (props: Props) => {
                         placeholder="Subject"
                         className="contactInput"
                         type="text"
+                        required
                     />
                     <textarea
                         {...register("message")}
                         placeholder="Message"
                         className="contactInput"
+                        required
                     />
 
                     <button
                         type="submit"
-                        className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg">
+                        className="bg-[#36994c] py-5 px-10 rounded-md text-black font-bold text-lg">
                         Submit
                     </button>
                 </form>

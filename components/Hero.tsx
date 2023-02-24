@@ -9,8 +9,8 @@ const Hero = (props: Props) => {
     const [text, count] = useTypewriter({
         words: [
             "Hello, My Name is Alex Hunt",
-            "Someone-who-likes-tea.py",
-            "<ButLovesCodingMore />",
+            "Someone-who-loves-apple.py",
+            "<ButPrefersASliceOfCodeInstead />",
         ],
         loop: true,
         delaySpeed: 2000,
@@ -20,17 +20,17 @@ const Hero = (props: Props) => {
             <BackgroundCircles />
 
             <img
-                src='https://images.unsplash.com/photo-1530126483408-aa533e55bdb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=930&q=80'
+                src="https://images.unsplash.com/photo-1530126483408-aa533e55bdb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=930&q=80"
                 alt="profile image"
                 className="relative rounded-full h-32 w-32 mx-auto object-fill"
             />
             <div className="z-20">
                 <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
-                    Software Developer
+                    Software Engineer
                 </h2>
                 <h1 className="text-5xl lg:text-6xl font-semibold px-10">
                     <span className="mr-3">{text}</span>
-                    <Cursor cursorColor="#F7AB0A" />
+                    <Cursor cursorColor="#36994c" />
                 </h1>
                 <div className="pt-5 ">
                     <Link href="#about">

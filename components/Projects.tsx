@@ -1,10 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import projects from "../data/projects.json";
 
 type Props = {};
 
 const Projects = (props: Props) => {
-    const projects = [1, 2, 3];
     return (
         <motion.div
             initial={{ opacity: 0 }}
@@ -14,7 +15,7 @@ const Projects = (props: Props) => {
             <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
                 Projects
             </h3>
-            <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 scrollbar">
+            <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-track-gray-400/20 scrollbar-thumb-[#36994c]/80 scrollbar">
                 {projects.map((project, i) => (
                     <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
                         <motion.img
@@ -26,33 +27,33 @@ const Projects = (props: Props) => {
                             alt=""
                             className="w-[350px] h-[350px]"
                         />
-                        <div className="space-y-10 px-0 md:px-10 max-w-6xl">
+                        <div className="space-y-8 px-0 md:px-10 max-w-6xl">
                             <h4 className="text-4xl font-semibold text-center">
-                                <span className="underline decoration-[#F7AB0A]/50">
-                                    Case Study {i + 1} of {projects.length}:
+                                <span className="underline decoration-[#36994c]/50">
+                                    Project # {i + 1} of {projects.length}:
                                 </span>{" "}
-                                UPS Clone
+                                {project.Name}
                             </h4>
+                            <div className="flex flex-row items-center justify-center">
+                                <Link href={project.Link} target="_blank">
+                                    <p className="hover:text-lg hover:text-amber-600">
+                                        Live Site
+                                    </p>
+                                </Link>
+                                <Link href={project.Git_Repo} target="_blank">
+                                    <p className="ml-10 text-base hover:text-lg hover:text-amber-600">
+                                        GitHub Repo
+                                    </p>
+                                </Link>
+                            </div>
                             <p className="text-lg text-center md:text-left">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                                Vestibulum lectus mauris ultrices eros. Aenean
-                                et tortor at risus. Morbi enim nunc faucibus a
-                                pellentesque sit amet porttitor eget. Enim
-                                lobortis scelerisque fermentum dui faucibus in
-                                ornare quam viverra. Suscipit tellus mauris a
-                                diam. Erat velit scelerisque in dictum. Leo vel
-                                fringilla est ullamcorper eget. Enim neque
-                                volutpat ac tincidunt vitae. Venenatis cras sed
-                                felis eget.
+                                {project.Description}
                             </p>
                         </div>
                     </div>
                 ))}
-                {/* <Project /> */}
             </div>
-            <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12"></div>
+            <div className="w-full absolute top-[30%] bg-[#36994c]/10 left-0 h-[500px] skew-y-12"></div>
         </motion.div>
     );
 };
