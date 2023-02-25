@@ -10,7 +10,7 @@ const Hero = (props: Props) => {
         words: [
             "Hello, My Name is Alex Hunt",
             "Someone-who-loves-apple.py",
-            "<ButPrefersASliceOfCodeInstead />",
+            "<ButPrefersASpliceOfCodeInstead />",
         ],
         loop: true,
         delaySpeed: 2000,

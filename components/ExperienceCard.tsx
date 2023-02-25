@@ -25,23 +25,6 @@ const ExperienceCard = (props: Props) => {
                             <p className="font-bold text-2xl mt-1">
                                 {job.companyName}
                             </p>
-                            {/* <div className="flex space-x-2 my-2">
-                            <img
-                                className="h-10 w-10 rounded-full"
-                                src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/119_Excel_logo_logos-1024.png"
-                                alt=""
-                            />
-                            <img
-                                className="h-10 w-10 rounded-full"
-                                src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/119_Excel_logo_logos-1024.png"
-                                alt=""
-                            />
-                            <img
-                                className="h-10 w-10 rounded-full"
-                                src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/119_Excel_logo_logos-1024.png"
-                                alt=""
-                            />
-                        </div> */}
                             <p className="uppercase py-5 text-gray-500">
                                 {" "}
                                 Started work {job.startDate} - {job.endDate}

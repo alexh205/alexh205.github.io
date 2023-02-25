@@ -22,7 +22,9 @@ export default function Home() {
             <section id="hero" className="snap-start">
                 <Hero />
             </section>
-            <section id="about" className="snap-center">
+            <section
+                id="about"
+                className="snap-center flex items-center justify-center">
                 <About />
             </section>
 
@@ -38,17 +40,23 @@ export default function Home() {
             <section id="contact" className="snap-start">
                 <ContactMe />
             </section>
-            <Link href="#hero">
-                <footer className="sticky bottom-0 w-full cursor-pointer">
-                    <div className="flex items-center justify-center ">
+            <footer className="flex flex-row items-center sticky bottom-[10px] justify-between">
+                <div className="text-sm flex ml-3">
+                    <p className="opacity-40 text-gray-400">
+                        Designed By: Alex Hunt
+                    </p>
+                </div>
+                <Link href="#hero" className="mr-[50%]">
+                    <div className="flex flex-col items-center justify-center cursor-pointer filter grayscale hover:grayscale-0 opacity-30 hover:opacity-80">
                         <img
                             src="https://images.unsplash.com/photo-1625006100410-6bee55152de7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                             alt=""
-                            className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
+                            className="h-10 w-10 rounded-full  mb-1"
                         />
+                        <p className="text-xs ">Back to the top</p>
                     </div>
-                </footer>
-            </Link>
+                </Link>
+            </footer>
         </div>
     );
 }
