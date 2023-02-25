@@ -3,7 +3,7 @@
         "id": 1,
         "Name": "NinjaVillage",
         "Image": "https://user-images.githubusercontent.com/95322089/218265391-576f139a-c7da-4caf-a9bf-8cd54015202a.png",
-        "Description": "This is a full stack e-commerce application inspired by the popular e-commerce site Amazon. Users can search, sell, purchase, and review products.",
+        "Description": "This is a full stack e-commerce application inspired by the popular e-commerce site Amazon, but with a Ninja theme. Users can search, sell, purchase, and review products.",
         "Tools": "",
         "Link": "https://ninjavillage-pkud.onrender.com/",
         "Git_Repo": "https://github.com/alexh205/NinjaVillage"

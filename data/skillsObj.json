@@ -1,120 +1,115 @@
 [
     {
         "id": 1,
-        "Name": "JavaScript",
-        "Image": "https://imgs.search.brave.com/zRXPpOhRJEdccUWHHnguELZyqzCuqWQmAjKXmRiv5do/rs:fit:512:512:1/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzM3NDk3Mi5wbmc",
-        "Link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-    },
-    {
-        "id": 2,
-        "Name": "HTML",
-        "Image": "https://imgs.search.brave.com/M65uBop1WScMnkREOBwMXaCFnk6hSTwX2Vx7BWZLDYk/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNy8w/OC8wNS8xMS8xNi9s/b2dvLTI1ODI3NDhf/MTI4MC5wbmc",
-        "Link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
-    },
-    {
-        "id": 3,
-        "Name": "CSS",
-        "Image": "https://imgs.search.brave.com/FD30CDWXPPDs-CXU9MkHRe7mzJYjtCaKUmLQFYNLW40/rs:fit:720:720:1/g:ce/aHR0cHM6Ly9hcm1v/cnRlY2hzLmNvbS91/cGxvYWQvaW1hZ2Uv/YmxvZy9jc3MtdmFy/aWFibGVzLWNzcy0z/LWxvZ28ucG5n",
-        "Link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
-    },
-    {
-        "id": 4,
         "Name": "REACT",
         "Image": "https://imgs.search.brave.com/sgBnwz87jxK5DyM_o1TSQD4YcgfjcCKhk8HwUBHvYlo/rs:fit:757:535:1/g:ce/aHR0cHM6Ly93d3cu/cG9wd2ViZGVzaWdu/Lm5ldC9wb3BhcnRf/YmxvZy93cC1jb250/ZW50L3VwbG9hZHMv/MjAxNy8wNC9SZWFj/dC5qcGc",
         "Link": "https://reactjs.org/"
     },
     {
-        "id": 5,
+        "id": 2,
         "Name": "REDUX",
         "Image": "https://imgs.search.brave.com/kt45trtc1AdfhcdPMtJFqggKcVkbzJeNAl_R9uO_QD0/rs:fit:1024:768:1/g:ce/aHR0cHM6Ly9jbGlw/Z3JvdW5kLmNvbS9p/bWFnZXMvcmVkdXgt/bG9nby0zLmpwZw",
         "Link": "https://redux.js.org/"
     },
     {
+        "id": 3,
+        "Name": "JavaScript",
+        "Image": "https://imgs.search.brave.com/zRXPpOhRJEdccUWHHnguELZyqzCuqWQmAjKXmRiv5do/rs:fit:512:512:1/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzM3NDk3Mi5wbmc",
+        "Link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+        "id": 4,
+        "Name": "HTML",
+        "Image": "https://imgs.search.brave.com/M65uBop1WScMnkREOBwMXaCFnk6hSTwX2Vx7BWZLDYk/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNy8w/OC8wNS8xMS8xNi9s/b2dvLTI1ODI3NDhf/MTI4MC5wbmc",
+        "Link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    },
+    {
+        "id": 5,
+        "Name": "CSS",
+        "Image": "https://imgs.search.brave.com/FD30CDWXPPDs-CXU9MkHRe7mzJYjtCaKUmLQFYNLW40/rs:fit:720:720:1/g:ce/aHR0cHM6Ly9hcm1v/cnRlY2hzLmNvbS91/cGxvYWQvaW1hZ2Uv/YmxvZy9jc3MtdmFy/aWFibGVzLWNzcy0z/LWxvZ28ucG5n",
+        "Link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
         "id": 6,
-        "Name": "Python",
-        "Image": "https://imgs.search.brave.com/do2utLWAKLoQLdIUZdc8K78yHk5yLvhL46ZGWWU3ixg/rs:fit:630:630:1/g:ce/aHR0cHM6Ly9ibG9n/Lmluc2FpZC5jby93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxOS8w/NC9QeXRob24tbG9n/by5qcGc",
-        "Link": "https://www.python.org/"
-    },
-    {
-        "id": 7,
-        "Name": "Flask",
-        "Image": "https://imgs.search.brave.com/-im8ysN6uQCZ5P9xF3PMdxAX5h6uwHryNc0sR_-OlYc/rs:fit:840:880:1/g:ce/aHR0cHM6Ly93d3cu/cG5nZmluZC5jb20v/cG5ncy9tLzEyOC0x/Mjg2NjkzX2ZsYXNr/LWZyYW1ld29yay1s/b2dvLXN2Zy1oZC1w/bmctZG93bmxvYWQu/cG5n",
-        "Link": "https://flask.palletsprojects.com/en/2.2.x/"
-    },
-    {
-        "id": 8,
-        "Name": "SQLAlchemy",
-        "Image": "https://imgs.search.brave.com/P5qcrPRpbX2niH_AWxQfHFvWj4nXmoMrwKoG9HY9WBM/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9pbWcu/c3RhY2tzaGFyZS5p/by9zZXJ2aWNlLzE4/MzkvcTV1QWtteTcu/cG5n",
-        "Link": "https://www.sqlalchemy.org/"
-    },
-    {
-        "id": 9,
-        "Name": "GIT",
-        "Image": "https://imgs.search.brave.com/IYAusUmlXGYbuMMFOKvZXOIS2kPi4RLKhY-Ph7FcPKE/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly8zLmJw/LmJsb2dzcG90LmNv/bS8teGhOcE5KSnlR/aGsvWEllNEdZNzhS/UUkvQUFBQUFBQUFJ/dGMvb3V1ZUZVajJI/cW81ZG50bW5LcUVh/QkpSNEtRNFEySzNB/Q0s0QkdBWVlDdy9z/MTYwMC9sb2dvJTJC/Z2l0JTJCaWNvbi5w/bmc",
-        "Link": "https://git-scm.com/"
-    },
-    {
-        "id": 10,
-        "Name": "GitHub",
-        "Image": "https://imgs.search.brave.com/c-0tWfPtfGTbynkBFAtwoEwZmHTyM6955JcElCD4_-Y/rs:fit:820:820:1/g:ce/aHR0cHM6Ly9pbWcu/ZmF2cG5nLmNvbS80/LzIwLzIxL2dpdGh1/Yi1jb21wdXRlci1p/Y29ucy1pY29uLWRl/c2lnbi1wbmctZmF2/cG5nLUthRFR3dUhX/Z0c4RDFxbjQ3UVcy/aEs3R2ouanBn",
-        "Link": "https://github.com/"
-    },
-    {
-        "id": 11,
-        "Name": "PostgreSQL",
-        "Image": "https://imgs.search.brave.com/eS-R76uwxPgbpDMSHAZ2jetjemmU4Db1rnF9RDMznDM/rs:fit:512:512:1/g:ce/aHR0cHM6Ly9icmFu/ZGxvZ29zLm5ldC93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMS8x/MS9wb3N0Z3Jlc3Fs/LWxvZ28tNTEyeDUx/Mi5wbmc",
-        "Link": "https://www.postgresql.org/"
-    },
-    {
-        "id": 12,
-        "Name": "SQL",
-        "Image": "https://imgs.search.brave.com/LkRNnywD8cAkMhnpFcOpu9m3AM7YAZdA0Y4IZt9aS-g/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9wbGF0/Zm9ybS11c2VyLXVw/bG9hZHMuczMuYW1h/em9uYXdzLmNvbS9i/bG9nL2NhdGVnb3J5/L2xvZ28vNjAvc3Fs/LnBuZw",
-        "Link": "https://en.wikipedia.org/wiki/SQL"
-    },
-    {
-        "id": 13,
-        "Name": "SEQUELIZE",
-        "Image": "https://imgs.search.brave.com/78OFxE5VXyppxjuOM6JLuMvmOq272NU9Z4mCkN0yurI/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9pbWcu/c3RhY2tzaGFyZS5p/by9zZXJ2aWNlLzMy/MTEvMzU5MTc4Ni5w/bmc",
-        "Link": "https://sequelize.org/"
-    },
-    {
-        "id": 14,
-        "Name": "SQLite",
-        "Image": "https://imgs.search.brave.com/_W3x3dsYD2RdFCEd9WV8-Tco948b5kpiv6T_kqufDC0/rs:fit:280:280:1/g:ce/aHR0cDovL3NlZWt2/ZWN0b3Jsb2dvLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAx/OS8wNy9zcWxpdGUt/dmVjdG9yLWxvZ28t/c21hbGwucG5n",
-        "Link": "https://www.sqlite.org/index.html"
-    },
-    {
-        "id": 15,
-        "Name": "Express.js",
-        "Image": "https://imgs.search.brave.com/s6YmOAjvkOMWtzinhZGyLgzwOB_xZlc_R2AyaJ8a9kM/rs:fit:1024:1024:1/g:ce/aHR0cHM6Ly9tZWRp/YS56ZWVtbHkuY29t/L3plZW1seS9wcm9k/dWN0L2V4cHJlc3Nq/cy5wbmc",
-        "Link": "https://expressjs.com/"
-    },
-    {
-        "id": 16,
-        "Name": "Yarn",
-        "Image": "https://imgs.search.brave.com/ba_7-_nf9ppQLnyeqMRbVpKpOfBNJh-5beakOG1ISGs/rs:fit:300:300:1/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL1kveWFybi1s/b2dvLUY1RTdBNjVG/QTItc2Vla2xvZ28u/Y29tLnBuZw",
-        "Link": "https://yarnpkg.com/"
-    },
-    {
-        "id": 17,
-        "Name": "NPM",
-        "Image": "https://imgs.search.brave.com/5yZeVfkWT6c7o5YHvTSvsijJl9zWiaUVf7BzZ--gX4g/rs:fit:850:510:1/g:ce/aHR0cHM6Ly93d3cu/c3lub3BzeXMuY29t/L2NvbnRlbnQvZGFt/L3N5bm9wc3lzL3Np/Zy1hc3NldHMvaW1h/Z2VzL25wbS1sb2dv/LnBuZy5pbWd3Ljg1/MC54LmpwZw",
-        "Link": "https://www.npmjs.com/"
-    },
-    {
-        "id": 18,
         "Name": "Tailwind CSS",
         "Image": "https://imgs.search.brave.com/lsMQTU9FMT8wdE0Gadtha4NVUemxUvLHeZ6fibrrxp4/rs:fit:632:632:1/g:ce/aHR0cHM6Ly9taXJv/Lm1lZGl1bS5jb20v/bWF4LzYzMi8xKjVR/RDhES2hPalJlLWdj/WWpvemxMTlEucG5n",
         "Link": "https://tailwindcss.com/"
     },
     {
-        "id": 19,
+        "id": 7,
+        "Name": "Python",
+        "Image": "https://imgs.search.brave.com/do2utLWAKLoQLdIUZdc8K78yHk5yLvhL46ZGWWU3ixg/rs:fit:630:630:1/g:ce/aHR0cHM6Ly9ibG9n/Lmluc2FpZC5jby93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxOS8w/NC9QeXRob24tbG9n/by5qcGc",
+        "Link": "https://www.python.org/"
+    },
+    {
+        "id": 8,
+        "Name": "Flask",
+        "Image": "https://imgs.search.brave.com/-im8ysN6uQCZ5P9xF3PMdxAX5h6uwHryNc0sR_-OlYc/rs:fit:840:880:1/g:ce/aHR0cHM6Ly93d3cu/cG5nZmluZC5jb20v/cG5ncy9tLzEyOC0x/Mjg2NjkzX2ZsYXNr/LWZyYW1ld29yay1s/b2dvLXN2Zy1oZC1w/bmctZG93bmxvYWQu/cG5n",
+        "Link": "https://flask.palletsprojects.com/en/2.2.x/"
+    },
+    {
+        "id": 9,
+        "Name": "SQLAlchemy",
+        "Image": "https://imgs.search.brave.com/P5qcrPRpbX2niH_AWxQfHFvWj4nXmoMrwKoG9HY9WBM/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9pbWcu/c3RhY2tzaGFyZS5p/by9zZXJ2aWNlLzE4/MzkvcTV1QWtteTcu/cG5n",
+        "Link": "https://www.sqlalchemy.org/"
+    },
+    {
+        "id": 10,
+        "Name": "GIT",
+        "Image": "https://imgs.search.brave.com/IYAusUmlXGYbuMMFOKvZXOIS2kPi4RLKhY-Ph7FcPKE/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly8zLmJw/LmJsb2dzcG90LmNv/bS8teGhOcE5KSnlR/aGsvWEllNEdZNzhS/UUkvQUFBQUFBQUFJ/dGMvb3V1ZUZVajJI/cW81ZG50bW5LcUVh/QkpSNEtRNFEySzNB/Q0s0QkdBWVlDdy9z/MTYwMC9sb2dvJTJC/Z2l0JTJCaWNvbi5w/bmc",
+        "Link": "https://git-scm.com/"
+    },
+    {
+        "id": 11,
+        "Name": "GitHub",
+        "Image": "https://imgs.search.brave.com/c-0tWfPtfGTbynkBFAtwoEwZmHTyM6955JcElCD4_-Y/rs:fit:820:820:1/g:ce/aHR0cHM6Ly9pbWcu/ZmF2cG5nLmNvbS80/LzIwLzIxL2dpdGh1/Yi1jb21wdXRlci1p/Y29ucy1pY29uLWRl/c2lnbi1wbmctZmF2/cG5nLUthRFR3dUhX/Z0c4RDFxbjQ3UVcy/aEs3R2ouanBn",
+        "Link": "https://github.com/"
+    },
+    {
+        "id": 12,
         "Name": "Node js",
         "Image": "https://imgs.search.brave.com/YqJfw7X6Mk1B26p_x4LbWZAiN58r_TU974GZOfI_Ro8/rs:fit:1050:1050:1/g:ce/aHR0cHM6Ly8xLmJw/LmJsb2dzcG90LmNv/bS8tc3FBakl2T3Rw/WEkvWFlvQ21xT3lN/d0kvQUFBQUFBQUFK/aWcvQ293Ujh3Z0Vh/dUVzLVJYTjJJUG1M/WWtDN05Ib0h1QTNn/Q0xjQkdBc1lIUS9z/MTYwMC9ub2RlLWpz/LWxvZ28ucG5n",
         "Link": "https://nodejs.org/en/"
     },
+
     {
-        "id": 20,
+        "id": 13,
+        "Name": "Express.js",
+        "Image": "https://imgs.search.brave.com/s6YmOAjvkOMWtzinhZGyLgzwOB_xZlc_R2AyaJ8a9kM/rs:fit:1024:1024:1/g:ce/aHR0cHM6Ly9tZWRp/YS56ZWVtbHkuY29t/L3plZW1seS9wcm9k/dWN0L2V4cHJlc3Nq/cy5wbmc",
+        "Link": "https://expressjs.com/"
+    },
+    {
+        "id": 14,
+        "Name": "SQL",
+        "Image": "https://imgs.search.brave.com/LkRNnywD8cAkMhnpFcOpu9m3AM7YAZdA0Y4IZt9aS-g/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9wbGF0/Zm9ybS11c2VyLXVw/bG9hZHMuczMuYW1h/em9uYXdzLmNvbS9i/bG9nL2NhdGVnb3J5/L2xvZ28vNjAvc3Fs/LnBuZw",
+        "Link": "https://en.wikipedia.org/wiki/SQL"
+    },
+    {
+        "id": 15,
+        "Name": "SEQUELIZE",
+        "Image": "https://imgs.search.brave.com/78OFxE5VXyppxjuOM6JLuMvmOq272NU9Z4mCkN0yurI/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9pbWcu/c3RhY2tzaGFyZS5p/by9zZXJ2aWNlLzMy/MTEvMzU5MTc4Ni5w/bmc",
+        "Link": "https://sequelize.org/"
+    },
+    {
+        "id": 16,
+        "Name": "SQLite",
+        "Image": "https://imgs.search.brave.com/_W3x3dsYD2RdFCEd9WV8-Tco948b5kpiv6T_kqufDC0/rs:fit:280:280:1/g:ce/aHR0cDovL3NlZWt2/ZWN0b3Jsb2dvLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAx/OS8wNy9zcWxpdGUt/dmVjdG9yLWxvZ28t/c21hbGwucG5n",
+        "Link": "https://www.sqlite.org/index.html"
+    },
+    {
+        "id": 17,
+        "Name": "Yarn",
+        "Image": "https://imgs.search.brave.com/ba_7-_nf9ppQLnyeqMRbVpKpOfBNJh-5beakOG1ISGs/rs:fit:300:300:1/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL1kveWFybi1s/b2dvLUY1RTdBNjVG/QTItc2Vla2xvZ28u/Y29tLnBuZw",
+        "Link": "https://yarnpkg.com/"
+    },
+    {
+        "id": 18,
+        "Name": "NPM",
+        "Image": "https://imgs.search.brave.com/5yZeVfkWT6c7o5YHvTSvsijJl9zWiaUVf7BzZ--gX4g/rs:fit:850:510:1/g:ce/aHR0cHM6Ly93d3cu/c3lub3BzeXMuY29t/L2NvbnRlbnQvZGFt/L3N5bm9wc3lzL3Np/Zy1hc3NldHMvaW1h/Z2VzL25wbS1sb2dv/LnBuZy5pbWd3Ljg1/MC54LmpwZw",
+        "Link": "https://www.npmjs.com/"
+    },
+    {
+        "id": 19,
         "Name": "Render",
         "Image": "https://avatars.githubusercontent.com/u/36424661?s=200&v=4",
         "Link": "https://render.com/"

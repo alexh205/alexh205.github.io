@@ -42,9 +42,12 @@ export default function Home() {
             </section>
             <footer className="flex flex-row items-center sticky bottom-[10px] justify-between">
                 <div className="text-sm flex ml-3">
-                    <p className="opacity-40 text-gray-400">
-                        Designed By: Alex Hunt
-                    </p>
+                    <div className="flex flex-col items-center justify-center">
+                        <div className="opacity-40 text-gray-300 flex flex-row font-bold">
+                            <p className="text-gray-400 font-normal">ⓒ</p> Alex Hunt
+                        </div>
+                        <div className="text-gray-400 opacity-40">All Rights Reserved</div>
+                    </div>
                 </div>
                 <Link href="#hero" className="mr-[50%]">
                     <div className="flex flex-col items-center justify-center cursor-pointer filter grayscale hover:grayscale-0 opacity-30 hover:opacity-80">

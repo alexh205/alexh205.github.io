@@ -9,7 +9,7 @@ const ProjectCard = (props: Props) => {
     return (
         <>
             {projects.map(project => (
-                <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center p-10 bg-[#292929] hover:opacity-100 opacity-40  transition-opacity duration-200 overflow-hidden">
+                <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center p-10 bg-[#292929] hover:opacity-100 opacity-40  transition-opacity duration-200 overflow-hidden" key={project.id}>
                     <h4 className="text-3xl text-white font-semiBold">
                         {project.Name}
                     </h4>

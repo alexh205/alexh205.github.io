@@ -9,7 +9,7 @@ const ExperienceCard = (props: Props) => {
     return (
         <>
             {workHistory.map(job => (
-                <Link href={job.companyLink} target="_blank">
+                <Link href={job.companyLink} target="_blank" key={job.id}>
                     <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center p-10 bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
                         <motion.img
                             initial={{ y: -100, opacity: 0 }}
@@ -33,7 +33,7 @@ const ExperienceCard = (props: Props) => {
                             <ul className="list-dic space-y-4 ml-5 text-lg">
                                 {job.Accomplishments.map(
                                     (accomplishment, i) => (
-                                        <li>{accomplishment}</li>
+                                        <li key={i}>{accomplishment}</li>
                                     )
                                 )}
                             </ul>

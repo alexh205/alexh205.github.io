@@ -16,8 +16,9 @@ type Props = {};
 const ContactMe = (props: Props) => {
     const { register, handleSubmit } = useForm<Inputs>();
     const onSubmit: SubmitHandler<Inputs> = formData => {
-        window.location.href = `mailto:alexhunt215@gmail.com?subject={formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} (${formData.email})`;
+        window.location.href = `mailto:alexhunt215@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message}`;
     };
+
     return (
         <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
             <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
@@ -32,7 +33,11 @@ const ContactMe = (props: Props) => {
                     </span>
                 </h4>
                 <div className="space-y-10">
-                    <div className="flex items-center space-x-5 justify-center">
+                    <div
+                        className="flex items-center space-x-5 justify-center cursor-pointer"
+                        onClick={() => {
+                            window.location.href = "tel:+12678443867";
+                        }}>
                         <PhoneIcon className="text-[#36994c] h-7 w-7 animate-pulse" />
                         <p className="text-2xl">+1-267-844-3867</p>
                     </div>
