@@ -3,7 +3,6 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import Link from "next/link";
 
-
 type Props = {};
 
 const Hero = (props: Props) => {
@@ -23,8 +22,6 @@ const Hero = (props: Props) => {
             <img
                 src="https://images.unsplash.com/photo-1530126483408-aa533e55bdb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=930&q=80"
                 alt="profile image"
-                // width={100}
-                // height={100}
                 className="relative rounded-full w-32 h-32 mx-auto object-contain"
             />
             <div className="z-20">

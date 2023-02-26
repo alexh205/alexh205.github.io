@@ -57,8 +57,6 @@ export default function Home() {
                         <img
                             src="https://images.unsplash.com/photo-1625006100410-6bee55152de7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                             alt=""
-                            // width={40}
-                            // height={40}
                             className="rounded-full mb-1 h-10 w-10"
                         />
                         <p className="text-xs ">Back to the top</p>
