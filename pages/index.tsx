@@ -44,19 +44,22 @@ export default function Home() {
                 <div className="text-sm flex ml-3">
                     <div className="flex flex-col items-center justify-center">
                         <div className="opacity-40 text-gray-300 flex flex-row font-bold">
-                            <p className="text-gray-400 font-normal">ⓒ</p> Alex Hunt
+                            <p className="text-gray-400 font-normal">ⓒ</p> Alex
+                            Hunt
                         </div>
-                        <div className="text-gray-400 opacity-40">All Rights Reserved</div>
+                        <div className="text-gray-400 opacity-40">
+                            All Rights Reserved
+                        </div>
                     </div>
                 </div>
                 <Link href="#hero" className="mr-[50%]">
                     <div className="flex flex-col items-center justify-center cursor-pointer filter grayscale hover:grayscale-0 opacity-30 hover:opacity-80">
-                        <Image
+                        <img
                             src="https://images.unsplash.com/photo-1625006100410-6bee55152de7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
                             alt=""
-                            width={40}
-                            height={40}
-                            className="rounded-full mb-1"
+                            // width={40}
+                            // height={40}
+                            className="rounded-full mb-1 h-10 w-10"
                         />
                         <p className="text-xs ">Back to the top</p>
                     </div>
