@@ -9,9 +9,9 @@ const ProjectCard = (props: Props) => {
         <>
             {projects.map(project => (
                 <article
-                    className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center p-10 bg-[#292929] hover:opacity-100 opacity-40  transition-opacity duration-200 overflow-hidden"
+                    className="flex flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[400px] md:w-[500px] xl:w-[800px] snap-center p-10 bg-[#292929] hover:opacity-100 opacity-40  transition-opacity duration-200 overflow-hidden"
                     key={project.id}>
-                    <h4 className="text-3xl text-white font-semiBold">
+                    <h4 className="text-xl md:text-2xl lg:text-3xl text-white font-semibold">
                         {project.Name}
                     </h4>
                     <a href={project.Image} target="_blank">
@@ -20,7 +20,7 @@ const ProjectCard = (props: Props) => {
                             transition={{ duration: 1.2 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
-                            className="w-[400px] h-[350px] rounded-sm xl:w-[400px] xl:h-[350px] object-fit object-center"
+                            className="w-[300px] h-[260px] lg:w-[330px] lg:h-[280px] xl:w-[400px] xl:h-[350px] rounded-sm object-fit object-center"
                             src={project.Image}
                             alt=""
                         />
@@ -30,7 +30,7 @@ const ProjectCard = (props: Props) => {
                             <a href={project.Link} target="_blank">
                                 <button
                                     className="text-center rounded-lg px-3 py-2 m-1
-                       bg-white text-[#36994c] text-base hover:font-bold hover:text-amber-600">
+                       bg-white text-[#36994c] text-sm sm:text-base hover:font-bold hover:text-amber-600">
                                     Demo
                                 </button>
                             </a>
@@ -40,12 +40,12 @@ const ProjectCard = (props: Props) => {
                                 className="ml-1">
                                 <button
                                     className="text-center rounded-lg px-3 py-2 m-1
-                       bg-white text-[#36994c] text-base hover:font-bold hover:text-amber-600">
+                       bg-white text-[#36994c] text-sm sm:text-base hover:font-bold hover:text-amber-600">
                                     Repository
                                 </button>
                             </a>
                         </div>
-                        <div className="mt-2 text-lg ">
+                        <div className="mt-2 px-[11px] text-xs sm:text-lg ">
                             {project.Description}
                         </div>
                     </div>

@@ -11,13 +11,13 @@ const Skills = (props: Props) => {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1.5 }}
             className="flex relative flex-col text-center md:text-left xl:flex-row  max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center">
-            <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
+            <h3 className="absolute top-[100px] sm:top-[90px]  uppercase tracking-[20px] text-gray-400  text-lg md:text-xl lg:text-2xl">
                 Skills
             </h3>
-            <h3 className="absolute top-[140px] uppercase tracking-[3px] text-gray-500 text-sm">
+            <h3 className="absolute top-[130px] sm:top-[130px] uppercase tracking-[2px] md:tracking-[3px] text-gray-500 text-xs sm:text-sm">
                 Hover over a skill for the skill&apos;s name
             </h3>
-            <div className="grid grid-cols-3 md:grid-cols-4 gap-5">
+            <div className="grid grid-cols-4 md:grid-cols-5 gap-4 pt-6">
                 <Skill />
             </div>
         </motion.div>

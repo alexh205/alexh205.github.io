@@ -20,15 +20,15 @@ const Hero = (props: Props) => {
             <BackgroundCircles />
 
             <img
-                src="https://images.unsplash.com/photo-1530126483408-aa533e55bdb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=930&q=80"
+                src="https://user-images.githubusercontent.com/95322089/221441026-b35f53ab-a3fa-47ac-81f5-f6964f88f08d.png"
                 alt="profile image"
-                className="relative rounded-full w-32 h-32 mx-auto object-contain"
+                className="relative rounded-full w-[140px] h-[140px] mx-auto object-contain"
             />
             <div className="z-20">
-                <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
+                <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[12px] sm:tracking-[15px]">
                     Software Engineer
                 </h2>
-                <h1 className="text-5xl lg:text-6xl font-semibold px-10">
+                <h1 className="text-[21px] md:text-3xl lg:text-4xl xl:text-5xl font-semibold px-10">
                     <span className="mr-3">{text}</span>
                     <Cursor cursorColor="#36994c" />
                 </h1>

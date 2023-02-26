@@ -20,37 +20,43 @@ const ContactMe = (props: Props) => {
     };
 
     return (
-        <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
-            <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+        <div className=" h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+            <h3 className="absolute top-[100px] sm:top-[90px] uppercase tracking-[20px] text-gray-500 text-lg md:text-xl lg:text-2xl">
                 Contact
             </h3>
             <div className="flex flex-col space-y-10">
-                <h4 className="text-4xl font-semibold text-center">
+                <h4 className="text-2xl sm:text-4xl font-semibold text-center">
                     If you have any questions or comments.
                     <span className="decoration-[#36994c]/50 underline">
                         {" "}
                         Let&apos;s Talk.
                     </span>
                 </h4>
-                <div className="space-y-10">
+                <div className="space-y-8">
                     <div
                         className="flex items-center space-x-5 justify-center cursor-pointer"
                         onClick={() => {
                             window.location.href = "tel:+12678443867";
                         }}>
-                        <PhoneIcon className="text-[#36994c] h-7 w-7 animate-pulse" />
-                        <p className="text-2xl">+1-267-844-3867</p>
+                        <PhoneIcon className="text-[#36994c]  h-5 md:h-7 w-5 md:w-7 animate-pulse" />
+                        <p className="text-base md:text-lg lg:text-2xl">
+                            +1-267-844-3867
+                        </p>
                     </div>
                     <div className="flex items-center space-x-5 justify-center">
-                        <EnvelopeIcon className="text-[#36994c] h-7 w-7 animate-pulse" />
-                        <p className="text-2xl">alexhunt215@gmail.com</p>
+                        <EnvelopeIcon className="text-[#36994c]  h-5 md:h-7 w-5 md:w-7 animate-pulse" />
+                        <p className="text-base md:text-lg lg:text-2xl">
+                            alexhunt215@gmail.com
+                        </p>
                     </div>
                     <Link
                         href="https://goo.gl/maps/zf4tqLEJbJyWZBY86"
                         target="_blank"
                         className="flex items-center space-x-5 justify-center">
-                        <MapPinIcon className="text-[#36994c] h-7 w-7 animate-pulse" />
-                        <p className="text-2xl">Pennsylvania, USA</p>
+                        <MapPinIcon className="text-[#36994c] h-5 md:h-7 w-5 md:w-7 animate-pulse" />
+                        <p className="text-base md:text-lg lg:text-2xl">
+                            Pennsylvania, USA
+                        </p>
                     </Link>
                 </div>
                 <form
@@ -88,7 +94,7 @@ const ContactMe = (props: Props) => {
 
                     <button
                         type="submit"
-                        className="bg-[#36994c] py-5 px-10 rounded-md text-black font-bold text-lg">
+                        className="bg-[#36994c] py-3 md:py-5 px-10 rounded-md text-black font-bold text-lg">
                         Submit
                     </button>
                 </form>

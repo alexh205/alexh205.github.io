@@ -8,6 +8,7 @@ const Header = (props: Props) => {
     const handleClick = () => {
         window.location.hash = "#contact";
     };
+
     return (
         <header className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
             <motion.div
@@ -94,8 +95,9 @@ const Header = (props: Props) => {
                         duration: 1.4,
                     }}>
                     <a
-                        href=""
-                        className=" self-start md:flex mr-2 md:mr-0 text-gray-300 rounded-md p-[4px] text-[15px] opacity-30 hover:opacity-80 font-bold cursor-pointer border-[2px] border-gray-400 hover:border-[#36994c] active:text-amber-600 ">
+                        href="https://docs.google.com/document/d/1l428DEq3N2RCl5-zvuscUYX8euELsuYvjfbC4U-GYGM/edit?usp=sharing"
+                        target="_blank"
+                        className=" self-start md:flex mr-2 md:mr-0 text-gray-300 rounded-md p-[4px] text-[13px] sm:text-[16px] opacity-30 hover:opacity-80 font-bold cursor-pointer border-[2px] border-gray-400 hover:border-[#36994c] active:text-amber-600 ">
                         Resume
                     </a>
                 </motion.div>

@@ -16,19 +16,19 @@ const Skill = ({ directionLeft }: Props) => {
                     key={skill.id}>
                     <motion.img
                         initial={{
-                            x: directionLeft ? -200 : 200,
+                            x: directionLeft ? -100 : 100,
                             opacity: 0,
                         }}
                         transition={{ duration: 1 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         src={skill.Image}
-                        className="rounded-full border border-gray-500 object-cover w-[92px] h-[92px] md:w-[98px] md:h-[98px] xl:w-[118px] xl:h-[118px] filter group-hover:grayscale transition duration-300 ease-in-out"
+                        className="rounded-full border border-gray-500 object-cover w-[70px] h-[70px] md:w-[90px] md:h-[90px] xl:w-[110px] xl:h-[110px] filter group-hover:grayscale transition duration-300 ease-in-out"
                     />
 
-                    <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-[92px] h-[92px] md:w-[98px] md:h-[98px] xl:w-[118px] xl:h-[118px] rounded-full z-0">
+                    <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white w-[70px] h-[70px] md:w-[90px] md:h-[90px] xl:w-[110px] xl:h-[110px] rounded-full z-0">
                         <Link href={skill.Link} target="_blank">
                             <div className="flex items-center justify-center h-full">
-                                <p className="text-lg font-bold text-black opacity-100 text-center">
+                                <p className="text-sm md:text-base lg:text-lg font-bold text-black opacity-100 text-center">
                                     {skill.Name}
                                 </p>
                             </div>
