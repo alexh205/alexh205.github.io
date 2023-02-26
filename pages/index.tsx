@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
@@ -16,7 +15,7 @@ export default function Home() {
     return (
         <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#36994c]/80">
             <Head>
-                <title>Alex's Portfolio</title>
+                <title>Alex&apos;s Portfolio</title>
             </Head>
             <Header />
             <section id="hero" className="snap-start">

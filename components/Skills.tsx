@@ -15,7 +15,7 @@ const Skills = (props: Props) => {
                 Skills
             </h3>
             <h3 className="absolute top-[140px] uppercase tracking-[3px] text-gray-500 text-sm">
-                Hover over a skill for the skill's name
+                Hover over a skill for the skill&apos;s name
             </h3>
             <div className="grid grid-cols-3 md:grid-cols-4 gap-5">
                 <Skill />

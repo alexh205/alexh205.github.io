@@ -29,7 +29,7 @@ const ContactMe = (props: Props) => {
                     If you have any questions or comments.
                     <span className="decoration-[#36994c]/50 underline">
                         {" "}
-                        Let's Talk.
+                        Let&apos;s Talk.
                     </span>
                 </h4>
                 <div className="space-y-10">

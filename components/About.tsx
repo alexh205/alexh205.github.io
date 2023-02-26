@@ -35,8 +35,8 @@ const About = (props: Props) => {
                     about me
                 </h4>
                 <p className="text-[15px]">
-                    It is nice to meet you! I'm a software engineer. From a
-                    young age, I've been drawn to the world of technology and
+                    It is nice to meet you! I&apos;m a software engineer. From a
+                    young age, I&apos;ve been drawn to the world of technology and
                     problem-solving. When I discovered computer programming, I
                     found the perfect outlet to combine these interests. To me,
                     software engineering is a form of digital artistry. Like a
@@ -53,19 +53,19 @@ const About = (props: Props) => {
                 <p className="text-[15px]">
                     One of the things I find most exciting about software
                     engineering is the speed at which ideas can be transformed
-                    into measurable realities. It's an incredibly malleable
+                    into measurable realities. It&apos;s an incredibly malleable
                     medium, which allows for rapid iteration and
                     experimentation. The ability to bring a vision to life in a
                     matter of days is truly exhilarating, and I find it
                     incredibly satisfying to see the tangible results of my
-                    work. I'm passionate about the potential of software
-                    engineering to change the world, and I'm excited to be part
+                    work. I&apos;m passionate about the potential of software
+                    engineering to change the world, and I&apos;m excited to be part
                     of an industry that is constantly evolving and pushing the
                     boundaries of what is possible. The challenges and
                     opportunities presented by this field are what continue to
                     motivate and inspire me every day. I would welcome the
-                    opportunity to discuss your team's needs and learn more
-                    about your organization's culture and goals.
+                    opportunity to discuss your team&apos;s needs and learn more
+                    about your organization&apos;s culture and goals.
                 </p>
             </div>
         </motion.div>

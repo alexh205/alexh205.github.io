@@ -1,6 +1,5 @@
 import React from "react";
 import projects from "../data/projects.json";
-import Link from "next/link";
 import { motion } from "framer-motion";
 
 type Props = {};
