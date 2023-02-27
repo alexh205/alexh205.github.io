@@ -21,10 +21,10 @@ const ContactMe = (props: Props) => {
 
     return (
         <div className=" h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
-            <h3 className="absolute top-[100px] sm:top-[90px] uppercase tracking-[20px] text-gray-500 text-lg md:text-xl lg:text-2xl">
+            <h3 className="absolute top-[95px] sm:top-[90px] uppercase tracking-[20px] text-gray-500 text-lg md:text-xl lg:text-2xl">
                 Contact
             </h3>
-            <div className="flex flex-col space-y-10">
+            <div className="flex flex-col space-y-9">
                 <h4 className="text-2xl sm:text-4xl font-semibold text-center">
                     If you have any questions or comments.
                     <span className="decoration-[#36994c]/50 underline">

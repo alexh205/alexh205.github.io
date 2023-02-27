@@ -40,7 +40,7 @@ const Header = (props: Props) => {
                         fgColor="gray"
                         bgColor="transparent"
                     />
-                    <p className="text-xs text-gray-500 opacity-80 upp">
+                    <p className="text-xs text-gray-500 opacity-80">
                         Wellfound
                     </p>
                 </div>
@@ -97,7 +97,7 @@ const Header = (props: Props) => {
                     <a
                         href="https://docs.google.com/document/d/1l428DEq3N2RCl5-zvuscUYX8euELsuYvjfbC4U-GYGM/edit?usp=sharing"
                         target="_blank"
-                        className=" self-start md:flex mr-2 md:mr-0 text-gray-300 rounded-md p-[4px] text-[13px] sm:text-[16px] opacity-30 hover:opacity-80 font-bold cursor-pointer border-[2px] border-gray-400 hover:border-[#36994c] active:text-amber-600 ">
+                        className=" self-start md:flex mr-2 md:mr-0 text-gray-300 rounded-md p-[4px] text-[13px] sm:text-[16px] opacity-40 hover:opacity-80 font-bold cursor-pointer border-[2px] border-gray-400 hover:border-[#36994c] active:text-amber-600 ">
                         Resume
                     </a>
                 </motion.div>
