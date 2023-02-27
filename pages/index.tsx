@@ -47,18 +47,17 @@ export default function Home() {
                             alt=""
                             className="rounded-full mb-[2px] h-7 w-7 md:h-8 md:w-8"
                         />
-                        <p className="text-[10px] md:text-xs ">Back to the top</p>
+                        <p className="text-[10px] md:text-xs ">
+                            Back to the top
+                        </p>
                     </div>
                 </Link>
-                <div className="text-sm sticky lg:flex md:mr-[50%] mr-5">
-                    <div className="flex flex-col items-center justify-center">
-                        <div className="opacity-40 text-gray-300 flex flex-row font-bold text-xs">
-                            <p className="text-gray-400 font-normal">ⓒ</p> Alex
-                            Hunt
-                        </div>
-                        <div className="text-gray-400 opacity-40 text-xs">
-                            All Rights Reserved
-                        </div>
+                <div className="lg:mr-[50%] mr-5 text-sm sticky lg:flex flex-col items-center justify-center">
+                    <div className="opacity-40 text-gray-300 flex flex-row font-bold text-xs">
+                        <p className="text-gray-400 font-normal">ⓒ</p> Alex Hunt
+                    </div>
+                    <div className="text-gray-400 opacity-40 text-xs">
+                        All Rights Reserved
                     </div>
                 </div>
             </footer>

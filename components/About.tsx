@@ -24,7 +24,7 @@ const About = (props: Props) => {
                 whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: true }}
                 src="https://user-images.githubusercontent.com/95322089/221450218-ae0db517-2b46-4ec6-ab59-b425798b56ed.png"
-                className="-mb-28 md:mb-0 flex-shrink-0 w-[170px] h-[170px] rounded-full object-cover md:rounded-lg md:w-[260px] md:h-[350px] xl:w-[450px] xl:h-[550px]"
+                className="-mb-28 md:mb-0 flex-shrink-0 w-[160px] h-[160px] rounded-full object-cover md:rounded-lg md:w-[260px] md:h-[350px] xl:w-[450px] xl:h-[550px]"
             />
             <div className="space-y-6 px-0 md:px-10">
                 <h4 className="text-3xl sm:text-4xl font-semibold">
@@ -34,7 +34,7 @@ const About = (props: Props) => {
                     </span>{" "}
                     about me
                 </h4>
-                <p className="text-xs sm:text-[16px]">
+                <p className="text-left text-xs sm:text-[16px]">
                     It is nice to meet you! I&apos;m a software engineer. From a
                     young age, I&apos;ve been drawn to the world of technology
                     and problem-solving. When I discovered computer programming,
