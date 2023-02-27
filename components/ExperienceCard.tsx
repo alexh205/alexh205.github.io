@@ -12,12 +12,13 @@ const ExperienceCard = (props: Props) => {
                 <article
                     className="flex flex-col justify-center rounded-lg items-center space-y-3 flex-shrink-0 w-[380px] md:w-[600px] xl:w-[800px] snap-center p-9 bg-[#292929] hover:opacity-100 opacity-40 transition-opacity duration-200 overflow-hidden"
                     key={job.id}>
+
                     <motion.img
                         initial={{ y: -100, opacity: 0 }}
                         transition={{ duration: 1.2 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="hidden sm:flex w-[90px] h-[90px] lg:w-[120px] lg:h-[120px] xl:w-[140px] xl:h-[140px] rounded-full object-cover object-center"
+                        className=" flex w-[50px] h-[50px] md:w-[90px] md:h-[90px] lg:w-[120px] lg:h-[120px] xl:w-[140px] xl:h-[140px] rounded-full object-cover object-center"
                         src={job.companyLogo}
                         alt=""
                     />

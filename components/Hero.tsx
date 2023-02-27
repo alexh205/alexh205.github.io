@@ -25,10 +25,10 @@ const Hero = (props: Props) => {
                 className="relative rounded-full w-[140px] h-[140px] mx-auto object-contain"
             />
             <div className="z-20">
-                <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[12px] sm:tracking-[15px]">
+                <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[11px] sm:tracking-[15px]">
                     Software Engineer
                 </h2>
-                <h1 className="text-[21px] md:text-3xl lg:text-4xl xl:text-5xl font-semibold px-10">
+                <h1 className="text-[20px] md:text-3xl lg:text-4xl xl:text-5xl font-semibold px-10">
                     <span className="mr-3">{text}</span>
                     <Cursor cursorColor="#36994c" />
                 </h1>

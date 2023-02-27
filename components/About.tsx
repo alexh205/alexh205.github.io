@@ -23,7 +23,7 @@ const About = (props: Props) => {
                 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 viewport={{ once: true }}
-                src="https://user-images.githubusercontent.com/95322089/221441718-182c4aeb-5d46-43db-8d1d-0dbe311668e3.png"
+                src="https://user-images.githubusercontent.com/95322089/221450218-ae0db517-2b46-4ec6-ab59-b425798b56ed.png"
                 className="-mb-28 md:mb-0 flex-shrink-0 w-[170px] h-[170px] rounded-full object-cover md:rounded-lg md:w-[260px] md:h-[350px] xl:w-[450px] xl:h-[550px]"
             />
             <div className="space-y-6 px-0 md:px-10">

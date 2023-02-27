@@ -50,7 +50,7 @@ export default function Home() {
                         <p className="text-[10px] md:text-xs ">Back to the top</p>
                     </div>
                 </Link>
-                <div className="text-sm flex md:mr-[50%] mr-5">
+                <div className="text-sm sticky lg:flex md:mr-[50%] mr-5">
                     <div className="flex flex-col items-center justify-center">
                         <div className="opacity-40 text-gray-300 flex flex-row font-bold text-xs">
                             <p className="text-gray-400 font-normal">ⓒ</p> Alex
