@@ -52,7 +52,7 @@ export default function Home() {
                         </p>
                     </div>
                 </Link>
-                <div className="lg:mr-[50%] mr-5 text-sm sticky lg:flex flex-col items-center justify-center">
+                <div className="lg:mr-[50%] mr-7 text-sm sticky lg:flex flex-col items-center justify-center">
                     <div className="opacity-40 text-gray-300 flex flex-row font-bold text-xs">
                         <p className="text-gray-400 font-normal">ⓒ</p> Alex Hunt
                     </div>
