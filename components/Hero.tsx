@@ -20,7 +20,7 @@ const Hero = (props: Props) => {
             <BackgroundCircles />
 
             <img
-                src="https://user-images.githubusercontent.com/95322089/221441026-b35f53ab-a3fa-47ac-81f5-f6964f88f08d.png"
+                src="https://user-images.githubusercontent.com/95322089/221763208-d6024543-f01a-4367-abc3-f591a436c73b.png"
                 alt="profile image"
                 className="relative rounded-full w-[140px] h-[140px] mx-auto object-contain"
             />
