@@ -24,7 +24,7 @@ const Hero = (props: Props) => {
                 alt="profile image"
                 className="relative rounded-full w-[140px] h-[140px] mx-auto object-contain"
             />
-            <div className="z-20">
+            <div className="z-20 w-[387px] sm:w-[810px]">
                 <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[11px] sm:tracking-[15px]">
                     Software Engineer
                 </h2>
@@ -32,7 +32,7 @@ const Hero = (props: Props) => {
                     <span className="mr-3">{text}</span>
                     <Cursor cursorColor="#36994c" />
                 </h1>
-                <div className="pt-5 ">
+                <div className="pt-5  ">
                     <Link href="#about">
                         <button className="heroButton">About</button>
                     </Link>
