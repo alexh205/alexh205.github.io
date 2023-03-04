@@ -27,14 +27,14 @@ export default function Home() {
                 <About />
             </section>
 
-            <section id="experience" className="snap-center">
-                <Experience />
+            <section id="projects" className="snap-start">
+                <Projects />
             </section>
             <section id="skills" className="snap-start">
                 <Skills />
             </section>
-            <section id="projects" className="snap-start">
-                <Projects />
+            <section id="experience" className="snap-center">
+                <Experience />
             </section>
             <section id="contact" className="snap-start">
                 <ContactMe />
