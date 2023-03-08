@@ -16,14 +16,6 @@
         "Tools": "",
         "Link": "https://buzz-vxv2.onrender.com/",
         "Git_Repo": "https://github.com/AaronPBishop/Buzz"
-    },
-    {
-        "id": 3,
-        "Name": "AwayRental",
-        "Image": "https://user-images.githubusercontent.com/95322089/221339797-5893ccd0-d899-4fd2-9525-a2902c258ee7.png",
-        "Description": "This is a full stack clone of the popular hosting site AirBnB. Users on AwayRental are able to host their properties for overnight stays, book other hosted properties, and review those properties.",
-        "Tools": "",
-        "Link": "https://awayrental.onrender.com/",
-        "Git_Repo": "https://github.com/alexh205/AwayRental"
     }
+
 ]
