@@ -1,12 +1,12 @@
-import React from "react";
-import { SocialIcon } from "react-social-icons";
-import { motion } from "framer-motion";
+import React from 'react';
+import { SocialIcon } from 'react-social-icons';
+import { motion } from 'framer-motion';
 
 type Props = {};
 
 const Header = (props: Props) => {
     const handleClick = () => {
-        window.location.hash = "#contact";
+        window.location.hash = '#contact';
     };
 
     return (
@@ -29,6 +29,7 @@ const Header = (props: Props) => {
                 <div className="flex flex-col items-center justify-center">
                     <SocialIcon
                         url="https://www.linkedin.com/in/alexander-hunt-3b1b1710a/"
+                        target="_blank"
                         fgColor="gray"
                         bgColor="transparent"
                     />
@@ -37,6 +38,7 @@ const Header = (props: Props) => {
                 <div className="flex flex-col items-center justify-center mx-[6px]">
                     <SocialIcon
                         url="https://angel.co/u/alexander-hunt-3"
+                        target="_blank"
                         fgColor="gray"
                         bgColor="transparent"
                     />
@@ -47,6 +49,7 @@ const Header = (props: Props) => {
                 <div className="flex flex-col items-center justify-center">
                     <SocialIcon
                         url="https://github.com/alexh205"
+                        target="_blank"
                         fgColor="gray"
                         bgColor="transparent"
                     />
