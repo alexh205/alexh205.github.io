@@ -47,7 +47,7 @@ const ProjectCard = (props: Props) => {
             </div>
             <div className="mt-2 px-[11px] text-xs sm:text-lg flex items-start ">
               Tools: <p className="text-gray-400 ml-1">{Tools}</p>
-            </div>``
+            </div>
           </div>
         </article>
       ))}
