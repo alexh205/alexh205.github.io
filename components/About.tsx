@@ -33,21 +33,24 @@ const About = (props: Props) => {
           about me
         </h4>
         <p className="text-left text-xs sm:text-[16px]">
-          It is nice to meet you! I&apos;m a software engineer. From a young
-          age, I&apos;ve been drawn to the world of technology and
-          problem-solving. When I discovered computer programming, I found the
-          perfect outlet to combine these interests. To me, software engineering
-          is a form of digital artistry. Like a painter, a software engineer has
-          a unique canvas upon which to express their vision and create
-          something entirely new. With a few lines of code, a software engineer
-          can build entire worlds, and bring to life new industries and
-          platforms that were previously unimaginable. One of the things I find
-          most exciting about software engineering is the speed at which ideas
-          can be transformed into measurable realities. The challenges and
-          opportunities presented by this field are what continue to motivate
-          and inspire me every day. I would welcome the opportunity to discuss
-          your team&apos;s needs and learn more about your organization&apos;s
-          culture and goals.
+          It&apos;s a pleasure to meet you! As a seasoned software engineer,
+          I&apos;ve had a lifelong fascination with technology and
+          problem-solving. When I discovered the world of computer programming,
+          I found the perfect outlet to combine my passions. To me, software
+          engineering is a form of digital artistry, where I can create
+          something entirely new on a unique canvas using just a few lines of
+          code. With the power of technology, I can build entire worlds,
+          revolutionize industries, and create platforms that were once
+          unimaginable.
+          <br />
+          <br />
+          Apart from my professional interests, I&apos;m also an avid enthusiast
+          of video games, soccer, and travel photography. I believe that diverse
+          interests outside of work can fuel creativity and innovation in my
+          programming. I would be thrilled to discuss your team&apos;s
+          requirements and learn more about your organization&apos;s culture and
+          goals. Together, we can create cutting-edge solutions and drive your
+          vision forward.
         </p>
       </div>
     </motion.div>
