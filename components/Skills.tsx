@@ -1,5 +1,5 @@
 import React from 'react';
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 import Skill from './Skill';
 
 type Props = {};
@@ -7,9 +7,9 @@ type Props = {};
 const Skills = (props: Props) => {
   return (
     <motion.div
-      initial={{opacity: 0}}
-      whileInView={{opacity: 1}}
-      transition={{duration: 1.5}}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
       className="flex relative flex-col text-center md:text-left xl:flex-row  max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center">
       <h3 className="absolute top-[100px] sm:top-[90px]  uppercase tracking-[20px] text-gray-400  text-lg md:text-xl lg:text-2xl">
         Skills
