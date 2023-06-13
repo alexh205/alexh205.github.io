@@ -4,26 +4,26 @@
     "Name": "NinjaVillage",
     "Image": "https://user-images.githubusercontent.com/95322089/218265391-576f139a-c7da-4caf-a9bf-8cd54015202a.png",
     "Description": "This is a full stack e-commerce application inspired by the popular e-commerce site Amazon, but with a Ninja theme. Users can search, sell, purchase, and review products.",
-    "Tools": "JavaScript, Python, React, Redux, Flask, Sequelize, PostgreSQL, AWS S3, Tailwind CSS, HTML",
+    "Tools": "JavaScript,Tailwind CSS, HTML, React, Redux, Python, Flask, PostgreSQL, AWS S3",
     "Link": "https://ninjavillage-pkud.onrender.com/",
     "Git_Repo": "https://github.com/alexh205/NinjaVillage"
   },
   {
     "id": 2,
-    "Name": "AwayRental",
-    "Image": "https://user-images.githubusercontent.com/95322089/230793673-1ecb9e15-8dac-452d-924d-8e2ed53bb3c7.png",
-    "Description": "This is a full stack clone of the popular hosting site AirBnB. Users on AwayRental are able to host their properties for overnight stays, book other hosted properties, and review those properties.",
-    "Tools": "JavaScript, React, Redux, Express, Sequelize, PostgreSQL, Tailwind CSS, HTML",
-    "Link": "https://awayrental.onrender.com/",
-    "Git_Repo": "https://github.com/alexh205/AwayRental"
+    "Name": "DevelopMe",
+    "Image": "https://github.com/chingu-voyages/v44-tier3-team-41/assets/95322089/31a527f4-a06d-494b-8158-891c33ae7b16",
+    "Description": "The DevelopMe platform allows mentees to search for and connect with mentors based on various criteria such as location, industry, and expertise. Mentees can request mentorship sessions, receive feedback on their portfolios or design work, and seek guidance on career development and industry trends. The platform facilitates communication between mentors and mentees, providing a structured framework for mentorship engagements.",
+    "Tools": "JavaScript, Tailwind CSS, HTML, React, Redux, Express, PostgreSQL",
+    "Link": "https://develop-me.onrender.com/",
+    "Git_Repo": "https://github.com/chingu-voyages/v44-tier3-team-41"
   },
   {
     "id": 3,
-    "Name": "Buzz",
-    "Image": "https://user-images.githubusercontent.com/95946808/213333994-91155222-6ef0-43f0-b114-6c2d870c9913.png",
-    "Description": "This is a full stack spin-off of the popular business messaging application Slack. Users on Slack can share messages, images, setup communication channels for group collaboration, and take part in audio sessions within their organizations.",
-    "Tools": "JavaScript, Python, React, Redux, Flask, Sequelize, PostgreSQL, CSS, HTML",
-    "Link": "https://buzz-vxv2.onrender.com/",
-    "Git_Repo": "https://github.com/AaronPBishop/Buzz"
+    "Name": "AwayRental",
+    "Image": "https://user-images.githubusercontent.com/95322089/230793673-1ecb9e15-8dac-452d-924d-8e2ed53bb3c7.png",
+    "Description": "This is a full stack clone of the popular hosting site AirBnB. Users on AwayRental are able to host their properties for overnight stays, book other hosted properties, and review those properties.",
+    "Tools": "JavaScript,Tailwind CSS, HTML, React, Redux, Express, PostgreSQL",
+    "Link": "https://awayrental.onrender.com/",
+    "Git_Repo": "https://github.com/alexh205/AwayRental"
   }
 ]
