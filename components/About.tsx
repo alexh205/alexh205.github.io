@@ -1,14 +1,14 @@
 import React from 'react';
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 
 type Props = {};
 
 const About = (props: Props) => {
   return (
     <motion.div
-      initial={{opacity: 0}}
-      whileInView={{opacity: 1}}
-      transition={{duration: 1.5}}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
       className="container mx-auto flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly md:justify-center items-center ">
       <h3 className="absolute top-[100px] sm:top-[90px] uppercase tracking-[20px] text-gray-400 text-lg md:text-xl lg:text-2xl">
         about
@@ -21,8 +21,8 @@ const About = (props: Props) => {
         transition={{
           duration: 1.2,
         }}
-        whileInView={{x: 0, opacity: 1}}
-        viewport={{once: true}}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true }}
         src="https://user-images.githubusercontent.com/95322089/221450218-ae0db517-2b46-4ec6-ab59-b425798b56ed.png"
         className="-mb-28 md:mb-0 flex-shrink-0 w-[160px] h-[160px] rounded-full object-cover md:rounded-lg md:w-[260px] md:h-[350px] xl:w-[450px] xl:h-[550px]"
       />

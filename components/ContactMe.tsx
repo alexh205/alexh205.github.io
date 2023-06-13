@@ -1,7 +1,6 @@
 import React from 'react';
-import {motion} from 'framer-motion';
-import {PhoneIcon, MapPinIcon, EnvelopeIcon} from '@heroicons/react/24/solid';
-import {useForm, SubmitHandler} from 'react-hook-form';
+import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
+import { useForm, SubmitHandler } from 'react-hook-form';
 import Link from 'next/link';
 
 type Inputs = {
@@ -14,7 +13,7 @@ type Inputs = {
 type Props = {};
 
 const ContactMe = (props: Props) => {
-  const {register, handleSubmit} = useForm<Inputs>();
+  const { register, handleSubmit } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = formData => {
     window.location.href = `mailto:alexhunt215@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message}`;
   };

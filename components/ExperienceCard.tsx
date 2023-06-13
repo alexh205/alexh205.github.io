@@ -1,5 +1,5 @@
 import React from 'react';
-import {motion} from 'framer-motion';
+import { motion } from 'framer-motion';
 import workHistory from '../data/workHistory.json';
 import Link from 'next/link';
 
@@ -13,10 +13,10 @@ const ExperienceCard = (props: Props) => {
           className="flex flex-col justify-center rounded-lg items-center space-y-3 flex-shrink-0 w-[370px] md:w-[600px] xl:w-[800px] snap-center p-9 bg-[#292929] hover:opacity-100 opacity-40 transition-opacity duration-200 overflow-hidden"
           key={job.id}>
           <motion.img
-            initial={{y: -100, opacity: 0}}
-            transition={{duration: 1.2}}
-            whileInView={{opacity: 1, y: 0}}
-            viewport={{once: true}}
+            initial={{ y: -100, opacity: 0 }}
+            transition={{ duration: 1.2 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
             className=" flex w-[75px] h-[75px] md:w-[90px] md:h-[90px] lg:w-[120px] lg:h-[120px] xl:w-[140px] xl:h-[140px] rounded-full object-cover object-center mb-3"
             src={job.companyLogo}
             alt=""
